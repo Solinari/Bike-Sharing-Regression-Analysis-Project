@@ -18,7 +18,8 @@ def Show_BoxPlot(DataFrame):
                           by=groupby[i],
                           notch=True,
                           showmeans=True)
-        plt.show()
+        
+    plt.show()
 
 #run it
 Show_BoxPlot(df)
